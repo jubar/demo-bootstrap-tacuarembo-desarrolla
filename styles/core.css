@@ -1,0 +1,33 @@
+header {
+  background-color: #363f48;
+  color: #fff;
+}
+
+.banner {
+  background: url('../images/banner.jpg') no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  margin-bottom: 30px;
+}
+
+.thumbnail {
+  overflow: hidden;
+}
+
+.thumbnail img {
+  width: 100%;
+  object-fit: cover;
+  transition: all .3s;
+}
+
+.thumbnail img:hover {
+  transform: scale(1.2);
+  transition: all .3s;
+}
+
+footer {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  background-color: #363f48;
+  color: #fff;
+}
